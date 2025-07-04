@@ -1,0 +1,49 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 512px;
+
+  .inputSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+
+    input {
+      border-bottom: 1px solid dodgerblue;
+      outline: none;
+      height: 32px;
+      width: 100%;
+      padding: 8px;
+    }
+
+    input:focus {
+      border-bottom: 2px solid blue;
+    }
+
+    span {
+      color: red;
+    }
+  }
+
+  button {
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 12px;
+    width: 144px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 16px 0;
+  }
+
+  button:hover {
+    background-color: blue;
+  }
+}
